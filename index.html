@@ -10,17 +10,18 @@
     <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#" style="color: blue; text-decoration: none;font-size: 30px;padding: 0px 30px;">Home</a>
-            <a href="#" class="d-inline-block p-5 border border-5 border-success m-5">About us</a>
+  <h1 class="text-center text-lg-end fs-1">Hello</h1>
+    <header class="position-relative bg-dark container-md" style="height: 400px;">
+        <nav class="">
+            <a href="#" class="text-primary d-none d-lg-inline" style="color: blue; text-decoration: none;font-size: 30px;padding: 0px 30px;">Home</a>
+            <a href="#" class="d-inline-block p-5 border border-top-0 border-5 border-success rounded-circle m-5">About us</a>
             <a href="#">Login</a>
             <a href="#">Sign up</a>
             <a href="#">Contact</a>
         </nav>
     </header>
     <section>
-        <main class="container">
+        <main class="container d-none d-md-block">
             <!-- <h1 class="text-danger text-decoration-underline">Hi This is A heading</h1> -->
             <!-- Bootstrp Accordian -->
             <div class="accordion" id="accordionExample">
@@ -72,7 +73,7 @@
         7.Dark
         8.Light
         9.White -->
-        <section class="bg-primary container">
+        <section class="container">
             <h1 class="text-white">This is a heading</h1>
             <!-- Button Group -->
             <div class="btn-group" role="group" aria-label="Basic example">
@@ -81,7 +82,7 @@
                 <button type="button" class="btn btn-success">Right</button>
               </div>
               <!-- Bootstrap Card group -->
-              <section class="container">
+              <section class="container py-5">
                 <div class="card-group h-100">
                     <div class="card">
                       <img src="..." class="card-img-top" alt="...">
@@ -93,7 +94,7 @@
                         <small class="text-muted">Last updated 3 mins ago</small>
                       </div>
                     </div>
-                    <div class="card">
+                    <div class="card bg-success shadow-lg">
                       <img src="..." class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -118,10 +119,10 @@
         </section>
     </section>
     <!-- Bootstrap Card Group with row column format -->
-    <section class="container bg-dark">
+    <section class="container">
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
-              <div class="card">
+              <div class="card shadow-lg">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
@@ -166,8 +167,51 @@
         xl - >= 1200px && <1400px
         xxl - >=1400px
     -->
-    <footer>
+    <!-- Float -->
+    <section class="bg-secondary" style="height: 100px;">
+      <div class="container">
+        <!-- <div class="float-none float-md-start">Float start on all viewport sizes</div>
+  <div class="float-none float-md-end">Float end on all viewport sizes</div> -->
+  <div class="box">
+    <p class="ps-5 py-2 mx-5 my-2 border border-5 border-danger d-inline-block">paragrapgh</p>
+  </div>
+      </div>
+      
+    </section>
+    <footer class="my-3">
+      <div class="container">
+        <!-- Bootstrap Grid -->
+        <div class="row">
+          <div class="col-12 col-lg-3">
+            <p>Bootstrap
+            </p>
+            <p>Designed and built with all the love in the world by the Bootstrap team with the help of our contributors.</p>
+            <p>Code licensed MIT, docs CC BY 3.0.</p>
+            <p>Currently v5.1.3.</p>
+          </div>
+          <div class="col-lg-9">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-3 border border-danger">
+                <p>Paragraph 2</p>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 border border-danger">
+                <p>Paragraph 2</p>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3 border border-danger">
+                <p>Paragraph 2</p>
+              </div>
+              <div class="col-12 col-md-6  col-lg-3 border border-danger">
+                <p>Paragraph 2</p>
+              </div>
+            </div>
+            
+          </div>
 
+
+
+         
+        </div>
+      </div>
     </footer>
     <!-- Bootstrap JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

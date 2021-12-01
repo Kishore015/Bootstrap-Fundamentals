@@ -2,3 +2,15 @@
     color: red;
     font-size: 40px;
 }
+
+header {
+    background-image: url(https://getbootstrap.com/docs/5.1/assets/img/bootstrap-icons.png);
+    border-radius: 50%;
+}
+
+.card :hover{
+    background: rgb(14, 163, 71);
+    cursor: zoom-out;
+    color: blue;
+    box-shadow: 0 0 50px rgba(130, 31, 133, 0.8);
+}
